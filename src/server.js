@@ -49,7 +49,7 @@ const weekdays = [
 
 // Funcionalidades
 
-function getSubjects(subjectNumber) {
+function getSubject(subjectNumber) {
     const position = +subjectNumber -1
     return subjects[position]
 }
